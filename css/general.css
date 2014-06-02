@@ -47,6 +47,38 @@ body {
     margin: .25rem auto;
 }
 
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: #3BB9FF;
+    text-align: center;
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: .5rem 10%;
+    color: black;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #00FFFF;
+}
+
 article {
     margin: 0;
     padding: 0 5%;
@@ -54,6 +86,15 @@ article {
 }
 
 h1 {
+    text-align: center;
+    margin: 1.25rem 0;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #00FFFF;
+}
+
+.futuretag {
+    text-align: center;
     margin: 1.25rem 0;
     font-size: 2rem;
     line-height: 2.5rem;
@@ -91,15 +132,46 @@ hr {
     width: 75%;
 }
 
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+}
 
+blockquote p {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-family: Myriad Pro, sans-serif;
+}
 
+blockquote span {
+    font-size: 1rem;
+    float: right;
+    margin: 0;
+}
 
+blockquote p:before {
+    content: "“";
+    font-size: 3rem;
+    color: #00FFFF;
+    float: left;
+    margin: .5rem 0 0 -1.5rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 3rem;
+    position: absolute;
+    color: #00FFFF;
+    margin: .5rem 0 0 .5rem;
+}
 
 footer {
     background-color: #00FFFF;
 }
 
 footer p {
+    text-align: center;
     color: black;
     margin: .5rem 5% -0.5rem;
     font-size: .75rem;
