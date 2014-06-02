@@ -62,12 +62,8 @@ h1 {
 
 .tablet {
     align-content: center;
-    height: auto;
-    width: auto;
-    margin: .25rem auto;
-    box-shadow: .2rem .4rem .4rem .2rem rgba(1, 233, 215, .75);
-    border: solid .25rem #00FFFF;
-    border-radius: 1rem;
+    margin: 0 auto 1.5rem;
+    width: 100%;
 }
 
 p {
@@ -77,27 +73,27 @@ p {
     color: white;
 }
 
-
-
-
-
-
-
-figure {
+hr {
+    color: #00FFFF;
     margin: 0 auto 1.5rem;
-    width: 100%;
+    padding: 0 5%;
 }
 
-figure img {
-    box-shadow: .2rem .4rem .4rem .2rem rgba(1, 233, 215, .75);
-    border: solid .25rem #01DFD7;
-    border-radius: 1rem;
+.phone {
+    align-content: center;
+    margin: 0 auto 1.5rem;
+    width: 50%;
 }
 
-figcaption {
-    font-size: .75rem;
-    margin: .75rem .5rem;
+.horizon {
+    align-content: center;
+    margin: 0 auto 1.5rem;
+    width: 75%;
 }
+
+
+
+
 
 footer {
     background-color: #00FFFF;
